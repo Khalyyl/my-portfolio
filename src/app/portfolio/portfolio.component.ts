@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Renderer2 } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 
 @Component({
@@ -12,4 +12,6 @@ export class PortfolioComponent {
     this.titleService.setTitle('Khalil Askri - Portfolio');
     }
 
+
+  
 }
