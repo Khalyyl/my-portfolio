@@ -1,4 +1,8 @@
 .jumbotron{
     padding: 2rem;
-    background-color:rgb(252, 243, 207);
+    background-color:rgb(198, 222, 255);
+}
+
+.jumbotron .text-center .display-4 {
+    font-family: 'Your Desired Font', Noto Sans, sans-serif; 
 }
