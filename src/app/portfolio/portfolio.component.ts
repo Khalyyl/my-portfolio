@@ -12,6 +12,8 @@ import { ProjectsService } from '../_services/projects.service';
 export class PortfolioComponent implements OnInit {
 
   projects = {} as Project[];
+  // Une variable qui permettre de savoir si notre section de filtrage est reduite ou non
+  isCollapsed: boolean = true;
 
 
     
