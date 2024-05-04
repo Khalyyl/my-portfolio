@@ -5,6 +5,7 @@ export class Tag{
     static readonly JAVA = new Tag('Java','orange');
     static readonly JAVASCRIPT = new Tag('JavaScript','orange');
     static readonly REACT = new Tag('React','blue');
+    static readonly TALEND = new Tag('Talend','black');
 
 
 
