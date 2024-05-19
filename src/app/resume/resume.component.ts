@@ -22,7 +22,7 @@ export class ResumeComponent {
       link.click();
       link.remove();
   
-   }
+  }
   }
 
 

@@ -4,10 +4,12 @@
        <div class ="col-lg shadow border m-1">
           <div class="text-center">
             <h2>About me</h2>
-            <img src="../../assets/Untitled design (1).png" alt="profile picture" width="256" height="256" class="rounded-circle"/>
+            <br>
+            <img src="../../assets/Untitled design (1).png" alt="profile picture" width="256" height="256" class="imgg"/>
             <br>
             <br>
-            <p>
+            <br>
+            <p class="desc">
                 I'm currently a Software
                 engineering student and diving
                 deep into the world of web
@@ -22,7 +24,7 @@
        <div class="col-lg shadow border m-1">
         <div class="text-center">
             <h2>Featured Projects</h2>
-            <h4>
+            <h4 class="featuredColor">
                 {{FeaturedProject.name}}
             </h4>
             <carousel>
@@ -32,7 +34,8 @@
         </div>
     </carousel>
     <p class="mt-2">{{FeaturedProject.summary}}</p>
-    <p>Visit the portfolio section to learn more !</p>
+    <p>Visit the <u class='linkk-portfolio' routerLink="/portfolio" routerLinkActive="text-dark">Portfolio</u> section to learn more !</p>
+    <p>{{FeaturedProject.description}}</p>
 
         </div>
        </div>
