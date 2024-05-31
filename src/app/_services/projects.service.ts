@@ -10,10 +10,9 @@ export class ProjectsService {
 
   projects: Project [] = [
     {id: 0, name: "Sample Angular App", pictures: ["../../assets/AngularPic/image1.png","../../assets/AngularPic/image2.png"], projectLink: "https://github.com/Khalyyl/FoodApp", summary: "Food Application", description: "Lorem ipsum dolor sit amet", tags: [Tag.ANGULAR,Tag.TYPESCRIPT]},
-    {id: 1, name: "Sample Python Project", pictures: ["../../assets/Image1.png"], projectLink: "//www.github.com", summary: "Python project that analyzes stock market data.", description: "Lorem ipsum dolor sit amet", tags: [Tag.PYTHON]},
-    {id: 2, name: "Mobile App", pictures: ["../../assets/MobileApp/cap1.png","../../assets/MobileApp/cap2.png","../../assets/MobileApp/cap3.png","../../assets/MobileApp/cap5.png","../../assets/MobileApp/cap4.png"], projectLink: "", summary: "Mobile Application", description: " CarAppointment is designed to make your experience with car dealerships as smooth and pleasant as possible. Say goodbye to long waits and endless phone calls. With CarAppointment, you have full control over your appointments and automotive needs. ", tags: [Tag.JAVA]},
-    {id: 3, name: "Sample Python Project", pictures: ["../../assets/Image1.png"], projectLink: "//www.github.com", summary: "Python project that analyzes stock market data.", description: "Lorem ipsum dolor sit amet", tags: [Tag.PYTHON]},
-    {id: 4, name: "BI Project", pictures: [], projectLink: "//www.github.com", summary: "BI Project", description: "Lorem ipsum dolor sit amet", tags: [Tag.TALEND]}
+    {id: 1, name: "Sample Python Project", pictures: ["../../assets/AppManagment/AppManagment.png"], projectLink: "https://github.com/Khalyyl/ProductManagementApp", summary: "Product App Managment", description: "Python project that analyzes stock market data", tags: [Tag.PYTHON]},
+    {id: 2, name: "Mobile App", pictures: ["../../assets/MobileApp/cap1.png","../../assets/MobileApp/cap2.png","../../assets/MobileApp/cap3.png","../../assets/MobileApp/cap5.png","../../assets/MobileApp/cap4.png"], projectLink: "", summary: "Mobile Application", description: " CarAppointment is designed to make your experience with car dealerships as smooth and pleasant as possible.", tags: [Tag.JAVA]},
+    {id: 3, name: "BI Project", pictures: ["../../assets/BI Project/cap_Home.png","../../assets/BI Project/cap2.png","../../assets/BI Project/cap3.png"], projectLink: "//www.github.com", summary: "BI Project", description: "●	Advanced Design and development of a business intelligence solution for production analysis and control.", tags: [Tag.TALEND,Tag.POWERBI]}
 
   ];
 

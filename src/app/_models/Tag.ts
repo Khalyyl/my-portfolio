@@ -6,6 +6,9 @@ export class Tag{
     static readonly JAVASCRIPT = new Tag('JavaScript','orange');
     static readonly REACT = new Tag('React','blue');
     static readonly TALEND = new Tag('Talend','black');
+    static readonly POWERBI = new Tag('Power BI','yellow');
+
+    
 
 
 
