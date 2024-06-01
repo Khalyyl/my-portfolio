@@ -1,7 +1,8 @@
-.imgg {
-   /* border:0.5px solid #ffffff;; /* Replace #yourBorderColor with the color you desire */
-   /* box-shadow: 15px 5px 5px red; */
-   filter: drop-shadow(15px 5px 5px rgb(198, 222, 255));
+
+
+
+.rounded-image {
+    border-radius: 50%;
 }
 
 .linkk-portfolio{
