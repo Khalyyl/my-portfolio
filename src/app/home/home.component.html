@@ -1,43 +1,37 @@
-<div class="container">
-    <div class="row">
+<div class="container py-4">
+  <div class="row g-4">
 
-       <div class ="col-lg shadow border m-1">
-          <div class="text-center">
-            <h2>About me</h2>
-            <br>
-            <img src="../assets/pic_CV.png" alt="profile picture" width="256" height="256" class="rounded-image"/>
-            <br>
-            <br>
-            <br>
-            <p class="desc">
-                I'm currently a Software
-                engineering student and diving
-                deep into the world of web
-                development. I've got a solid grip
-                on front-end
-                technologies, and now I'm
-                actively seeking a summer
-                intership opportunity .
-            </p>
-          </div>
-       </div>
-       <div class="col-lg shadow border m-1">
-        <div class="text-center">
-            <h2>Featured Projects</h2>
-            <h4 class="featuredColor">
-                {{FeaturedProject.name}}
-            </h4>
-            <carousel>
+    <section class="col-lg-6 shadow rounded p-4 bg-white" aria-labelledby="about-heading">
+      <h2 id="about-heading" class="text-center mb-4">About Me</h2>
+      <div class="text-center mb-4">
+        <img src="../assets/pic_CV.png" alt="Profile picture of Khalil Askri" width="256" height="256" class="rounded-circle border border-3 shadow-sm" />
+      </div>
+      <p class="desc fs-5 text-center px-3">
+        I'm currently a Software engineering student diving deep into the world of web development. I've got a solid grip on front-end technologies, and now I'm actively seeking a summer internship opportunity.
+      </p>
+    </section>
+
+    <section class="col-lg-6 shadow rounded p-4 bg-white" aria-labelledby="featured-projects-heading">
+      <h2 id="featured-projects-heading" class="text-center mb-4">Featured Projects</h2>
+      <h4 class="featuredColor text-center mb-3">
+        {{FeaturedProject.name}}
+      </h4>
+      <carousel>
         <div *ngFor="let picture of FeaturedProject.pictures">
-            <slide><img src={{picture}} alt="slide" style="display: block; width: 100%;"></slide>
-
+          <slide>
+            <img src={{picture}} alt="slide" class="d-block w-100 rounded shadow-sm" style="object-fit: cover; max-height: 300px;" />
+          </slide>
         </div>
-    </carousel>
-    <p class="mt-2">{{FeaturedProject.summary}}</p>
-    <p>Visit the <u class='linkk-portfolio' routerLink="/portfolio" routerLinkActive="text-dark">Portfolio</u> section to learn more !</p>
-    <p>{{FeaturedProject.description}}</p>
+      </carousel>
+      <p class="mt-3 px-3">{{FeaturedProject.summary}}</p>
+      <p class="px-3">
+        Visit the <a class="linkk-portfolio fw-semibold" routerLink="/portfolio" routerLinkActive="text-dark">Portfolio</a> section to learn more!
+      </p>
+      <p class="px-3">{{FeaturedProject.description}}</p>
+      <div class="text-center mt-3">
+        <a routerLink="/portfolio" class="btn btn-primary btn-lg">View Portfolio</a>
+      </div>
+    </section>
 
-        </div>
-       </div>
-    </div>
+  </div>
 </div>
