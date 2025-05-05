@@ -1,27 +1,127 @@
-<div class="container">
-    <div class="text-center border mb-5 shadow rounded">
-        <h1>Contact</h1>
-        <p>I can be reached at the following email : <b>khalil.askri@issatso.u-sousse.tn</b></p>
-        <p>Feel free to connect with me on any of the following platforms:</p>  
-    </div>
-    
-    
-    <div class="wrapper">
-        <a href="https://www.facebook.com/profile.php?id=100019862739422" class="icon-container facebook">
-          <i class="icon fab fa-facebook-f"></i>
-        </a>
-        <a class="icon-container twitter">
-          <i class="icon fab fa-twitter"></i>
-        </a>
-        <a class="icon-container youtube">
-          <i class="icon fab fa-youtube"></i>
-        </a>
-        <a href="https://github.com/Khalyyl" class="icon-container github">
-          <i class="icon fab fa-github"></i>
-        </a>
-        <a href="https://www.linkedin.com/in/khalil-askri-59b1b11bb/" class="icon-container linkedin">
-          <i class="icon fab fa-linkedin-in"></i>
-        </a>
-      </div>
-</div>
-
+<div class="container py-5">
+  <div class="contact-header text-center mb-5 p-4 bg-light rounded">
+  <h2 class="mb-3">CONTACT ME</h2>
+  <p>I can be reached at the following email : <b>khalil.askri@issatso.u-sousse.tn</b></p>
+  <p class="lead">Feel free to connect with me on any of the following platforms:</p>
+  
+  </div>
+  
+  <div class="contact-methods row justify-content-center g-4">
+  
+  <!-- <div class="col-md-5 col-lg-3 text-center">
+  <div class="method-box p-4 h-100">
+  <div class="icon-wrapper mb-3">
+  <i class="fas fa-envelope fa-2x"></i>
+  </div>
+  <h5>EMAIL</h5>
+  <p class="mb-0">khalil.askri@issatso.u-sousse.tn</p>
+  </div>
+  </div> -->
+  
+  <!-- LinkedIn -->
+  <a href="https://www.linkedin.com/in/khalil-askri-59b1b11bb/" class="col-md-5 col-lg-3 text-center text-decoration-none" target="_blank" rel="noopener">
+  <div class="method-box p-4 h-100">
+  <div class="icon-wrapper mb-3 linkedin-icon">
+  <i class="fab fa-linkedin-in fa-2x"></i>
+  </div>
+  <h5>LINKEDIN</h5>
+  <p class="mb-0">Connect</p>
+  </div>
+  </a>
+  
+  <!-- GitHub -->
+  <a href="https://github.com/Khalyyl" class="col-md-5 col-lg-3 text-center text-decoration-none" target="_blank" rel="noopener">
+  <div class="method-box p-4 h-100">
+  <div class="icon-wrapper mb-3 github-icon">
+  <i class="fab fa-github fa-2x"></i>
+  </div>
+  <h5>GITHUB</h5>
+  <p class="mb-0">Khalyyl</p>
+  </div>
+  </a>
+  
+  <!-- Facebook -->
+  <a href="https://www.facebook.com/profile.php?id=100019862739422" class="col-md-5 col-lg-3 text-center text-decoration-none" target="_blank" rel="noopener">
+  <div class="method-box p-4 h-100">
+  <div class="icon-wrapper mb-3 facebook-icon">
+  <i class="fab fa-facebook-f fa-2x"></i>
+  </div>
+  <h5>FACEBOOK</h5>
+  <p class="mb-0">Connect</p>
+  </div>
+  </a>
+  
+  <!-- YouTube (Coming Soon) -->
+  <a href="#" class="col-md-5 col-lg-3 text-center text-decoration-none disabled-link" aria-disabled="true">
+  <div class="method-box p-4 h-100">
+  <div class="icon-wrapper mb-3 youtube-icon">
+  <i class="fab fa-youtube fa-2x"></i>
+  </div>
+  <h5>YOUTUBE</h5>
+  <p class="mb-0">Coming soon</p>
+  </div>
+  </a>
+  
+  <!-- Twitter (Coming Soon) -->
+  <!-- <a href="#" class="col-md-5 col-lg-3 text-center text-decoration-none disabled-link" aria-disabled="true">
+  <div class="method-box p-4 h-100">
+  <div class="icon-wrapper mb-3 twitter-icon">
+  <i class="fab fa-twitter fa-2x"></i>
+  </div>
+  <h5>TWITTER</h5>
+  <p class="mb-0">Coming soon</p>
+  </div>
+  </a> -->
+  </div>
+  </div>
+  
+  <style>
+  .contact-header {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  }
+  
+  .method-box {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+  color: inherit;
+  }
+  
+  .method-box:hover {
+  transform: translateY(-5px);
+  }
+  
+  .icon-wrapper {
+  color: #0d6efd; /* Default color */
+  }
+  
+  /* Platform-specific icon colors */
+  .facebook-icon { color: #1877f2; }
+  .twitter-icon { color: #1da1f2; }
+  .github-icon { color: #333; }
+  .linkedin-icon { color: #0077b5; }
+  .youtube-icon { color: #ff0000; }
+  
+  h5 {
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  }
+  
+  p {
+  color: #666;
+  }
+  
+  /* Disabled link styling */
+  .disabled-link {
+  pointer-events: none;
+  opacity: 0.7;
+  }
+  
+  .disabled-link .method-box:hover {
+  transform: none;
+  cursor: not-allowed;
+  }
+  </style>

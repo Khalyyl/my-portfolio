@@ -1,5 +1,5 @@
 .accordion-group-heading {
-  color: #6c757d; /* secondary gray */
+  color: #0865b6; /* secondary gray */
   font-weight: 600;
 }
 
@@ -15,7 +15,7 @@
 }
 
 h2, h3 {
-  color: #495057; /* muted dark gray */
+  color: #024b94; /* muted dark gray */
   font-weight: 600;
   margin-bottom: 1rem;
 }
@@ -54,6 +54,6 @@ ul li {
 
 ::ng-deep accordion-group .panel-heading,
 ::ng-deep accordion-group .panel-title {
-  color: #6c757d !important; /* secondary gray */
+  color: #25282b !important; /* secondary gray */
   font-weight: 600 !important;
 }

@@ -7,6 +7,9 @@ export class Tag{
     static readonly REACT = new Tag('React','blue');
     static readonly TALEND = new Tag('Talend','black');
     static readonly POWERBI = new Tag('Power BI','yellow');
+    static readonly DJANGO = new Tag('Django','green'); 
+    static readonly ELECTRON = new Tag('Electron','blue');
+    static readonly SYMFONY = new Tag('Symfony','blue');
 
     
 
