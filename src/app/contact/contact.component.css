@@ -119,3 +119,49 @@
     }
   }
   
+.contact-header {
+    background-color: #f8f9fa;
+    border-radius: 8px;}
+.method-box {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+      color: inherit;
+      }
+      
+.method-box:hover {
+      transform: translateY(-5px);
+      }
+      
+.icon-wrapper {
+      color: #0d6efd; /* Default color */
+      }
+      
+      /* Platform-specific icon colors */
+      .facebook-icon { color: #1877f2; }
+      .twitter-icon { color: #1da1f2; }
+      .github-icon { color: #333; }
+      .linkedin-icon { color: #0077b5; }
+      .youtube-icon { color: #ff0000; }
+      
+      h5 {
+      color: #333;
+      font-weight: 600;
+      margin-bottom: 1rem;
+      }
+      
+      p {
+      color: #666;
+      }
+      
+      /* Disabled link styling */
+      .disabled-link {
+      pointer-events: none;
+      opacity: 0.7;
+      }
+      
+      .disabled-link .method-box:hover {
+      transform: none;
+      cursor: not-allowed;
+      }

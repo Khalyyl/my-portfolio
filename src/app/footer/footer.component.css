@@ -1,0 +1,24 @@
+/* Footer icons container */
+.col-md-4.text-center.text-md-end a {
+  color: #ffffff; /* white color for icons */
+  margin-right: 1rem; /* spacing between icons */
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+/* Remove margin-right for last icon */
+.col-md-4.text-center.text-md-end a:last-child {
+  margin-right: 0;
+}
+
+/* Icon size */
+.col-md-4.text-center.text-md-end a i {
+  font-size: 1.5rem; /* larger icon size */
+  vertical-align: middle;
+}
+
+/* Hover effect */
+.col-md-4.text-center.text-md-end a:hover {
+  color: #0d6efd; /* bootstrap primary blue on hover */
+  text-decoration: none;
+}
