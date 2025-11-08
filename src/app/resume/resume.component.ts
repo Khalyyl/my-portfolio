@@ -19,7 +19,7 @@ export class ResumeComponent {
       link.setAttribute('target', '_blank');
       link.setAttribute('href',"assets/RESUME_Askri_Khalyl.pdf");
       //link.setAttribute('download','RESUME_Askri_Khalyl.pdf');
-      link.setAttribute('download','RESUME_KHALIL_ASKRI.pdf');
+      link.setAttribute('download','assets/RESUME_KHALIL_ASKRI.pdf');
 
       link.click();
       link.remove();
